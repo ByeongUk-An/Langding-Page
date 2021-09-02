@@ -3,3 +3,107 @@
   margin: 0;
   box-sizing: border-box;
 }
+
+.banner-container {
+  background-image: url(https://online.codingapple.com/wp-content/uploads/2019/06/portfolio-1.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100%;
+  height: 600px;
+  padding: 0 100px;
+  position: relative;
+  overflow: hidden;
+}
+
+.banner-text {
+  float: left;
+  padding-top: 160px;
+  color: white;
+}
+
+.banner-container .banner-text h1 {
+  font-size: 42px;
+  margin-bottom: 20px;
+}
+.banner-container .banner-text p {
+  font-size: 24px;
+  margin-bottom: 30px;
+}
+.banner-btn {
+  background-color: #343a3f;
+  width: 150px;
+  height: 50px;
+  border-radius: 4px;
+  border: 1px solid #343a3f;
+  color: white;
+  cursor: pointer;
+}
+
+.banner-container .banner-mobile-img {
+  float: right;
+  position: absolute;
+  bottom: -5px;
+  right: 130px;
+}
+
+.banner-container .banner-mobile-img img {
+  width: 400px;
+}
+
+.portfolio-text-container {
+  width: 100%;
+  text-align: center;
+  padding: 140px;
+}
+
+.portfolio-text-container p {
+  margin: 40px 0 30px 0;
+}
+
+.offer-container {
+  background-color: #3d7fb6;
+  padding: 30px 0 100px 0;
+}
+
+.offer-container .offer-head {
+  text-align: center;
+  padding: 100px 0 50px 0;
+}
+.offer-container .offer-head span {
+  color: #e2d178;
+  font-weight: 700;
+}
+.offer-container .offer-head h3 {
+  font-size: 46px;
+  color: #fff;
+  margin: 15px 0;
+}
+
+.offer-item-container {
+  display: flex;
+  justify-content: space-around;
+}
+
+.offer-item-container li {
+  list-style: none;
+  text-align: center;
+}
+
+.offer-item-container li div {
+  width: 150px;
+  height: 150px;
+  background-color: #fff;
+  padding: 30px;
+  border-radius: 50%;
+  margin-bottom: 30px;
+}
+
+.offer-item-container li i {
+  font-size: 60px;
+  padding-top: 15px;
+}
+
+.offer-item-container li span {
+  font-size: 30px;
+  color: #fff;
+}
