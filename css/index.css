@@ -196,6 +196,10 @@
   justify-content: center;
   align-items: center;
   margin-right: 40px;
+  cursor: pointer;
+}
+.link-container ul li:hover {
+  transform: scale(1.1);
 }
 
 .link-container ul li:last-child {
