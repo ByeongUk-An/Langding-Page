@@ -62,18 +62,19 @@
 
 .offer-container {
   background-color: #3d7fb6;
-  padding: 30px 0 100px 0;
+  padding: 30px 0 90px 0;
+  margin-bottom: 100px;
 }
 
 .offer-container .offer-head {
   text-align: center;
   padding: 100px 0 50px 0;
 }
-.offer-container .offer-head span {
+.offer-head span {
   color: #e2d178;
   font-weight: 700;
 }
-.offer-container .offer-head h3 {
+.offer-head h3 {
   font-size: 46px;
   color: #fff;
   margin: 15px 0;
@@ -87,23 +88,129 @@
 .offer-item-container li {
   list-style: none;
   text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
 }
 
 .offer-item-container li div {
-  width: 150px;
-  height: 150px;
+  width: 100px;
+  height: 100px;
   background-color: #fff;
   padding: 30px;
   border-radius: 50%;
-  margin-bottom: 30px;
+  margin-bottom: 15px;
 }
 
 .offer-item-container li i {
-  font-size: 60px;
-  padding-top: 15px;
+  font-size: 40px;
 }
 
 .offer-item-container li span {
   font-size: 30px;
   color: #fff;
+}
+
+.portfolio-container {
+  width: 1200px;
+  /* height: 800px; */
+  margin: 0 auto 100px;
+}
+
+.portfolio-container .offer-head {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.portfolio-container .offer-head h3 {
+  color: black;
+}
+
+.portfolio-item {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.portfolio-item li {
+  width: 50%;
+  height: 400px;
+  background-color: tomato;
+  list-style: none;
+}
+
+.portfolio-item li div {
+  width: 100%;
+  height: 100%;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: relative;
+}
+
+.portfolio-item li div .img-text-container {
+  height: 50px;
+}
+
+.portfolio-item li .img-item {
+  background-image: url("https://online.codingapple.com/wp-content/uploads/2019/06/portfolio-1.jpg");
+}
+.portfolio-item li .img-item2 {
+  background-image: url("https://online.codingapple.com/wp-content/uploads/2019/06/portfolio-2.jpg");
+}
+.portfolio-item li .img-item3 {
+  background-image: url("https://online.codingapple.com/wp-content/uploads/2019/06/portfolio-3.jpg");
+}
+.portfolio-item li .img-item4 {
+  background-image: url("https://online.codingapple.com/wp-content/uploads/2019/06/portfolio-4.jpg");
+}
+
+.portfolio-item li div .img-text {
+  color: white;
+  position: absolute;
+  bottom: 80px;
+  left: 80px;
+  line-height: 26px;
+}
+
+.link-container {
+  width: 1200px;
+  margin: 0 auto 35px;
+  display: flex;
+  justify-content: center;
+}
+
+.link-container ul {
+  width: 1000px;
+  display: flex;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.link-container ul li {
+  list-style: none;
+  width: 130px;
+  height: 130px;
+  background: #1a7ea1;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 40px;
+}
+
+.link-container ul li:last-child {
+  margin-right: 0;
+}
+
+.link-container ul li i {
+  font-size: 50px;
+  color: #fff;
+}
+
+footer {
+  height: 150px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #b7bcbe;
 }
