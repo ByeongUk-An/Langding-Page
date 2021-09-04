@@ -151,6 +151,12 @@
   height: 50px;
 }
 
+.portfolio-item li:hover {
+  transform: scale(0.5);
+  transition: all 1s;
+  overflow: hidden;
+}
+
 .portfolio-item li .img-item {
   background-image: url("https://online.codingapple.com/wp-content/uploads/2019/06/portfolio-1.jpg");
 }
